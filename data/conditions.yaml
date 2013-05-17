@@ -1,0 +1,59 @@
+conditions:
+    -
+        name: Learning
+        text: At the start of turn draw a card.
+    -
+        name: Magical Ward
+        keywords: Magic • Healing
+        text: Physical damage dealt to you is decreased by 1
+
+    - 
+        name: Increased Knowledge
+        text: You have +2 intelligence
+    -
+        name: Reserves
+        text: You have +1 Energy
+
+    - 
+        name: New Trick
+        text: Trickshot skills cost 1 less
+    - 
+        name: Fast Attack
+        text: Physical skills have -1 cooldown
+    - 
+        name: Rapid Casting
+        text: Magic skills cost 1 less cooldown
+
+    - 
+        name: Field Dressing
+        text: "When you take damage, you may discard and draw that many cards plus one instead"
+
+    - 
+        name: Perfect Aim
+        text: Your range attacks cost 1 less
+
+    - 
+        name: Regeneration
+        text: Recharge 1
+
+    - 
+        name: Blood of Nobility
+        text: "When an opponent discards or plays a card from hand, draw a card"
+
+    - 
+        name: Influx of Knowledge
+        cooldown: 3
+        text: "When this card cools down, draw 2 cards. "
+
+    - 
+        name: Influx of Pain
+        cooldown: 5
+        text: "When this card cools down, deal 3 damage"
+
+    - 
+        name: Influx of Energy
+        cooldown: 3
+        text: Recharge 4
+
+
+

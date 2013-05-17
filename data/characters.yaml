@@ -1,0 +1,33 @@
+characters:
+
+    -
+        # Few choices, but a whole lot of room for conditions to give passive effects
+        # With the low intel and cantrip for stealth, you are encouraged to play trickshots and 
+        # stealth actions, while penalized for generic boring attacks.
+        name: "The Thief"
+        intelligence: 3
+        energy: 4
+        luck: 6
+        disadvantage: "Each physical damage skill you have reduces your luck by 1."
+        advantage: "After you play a stealth skill from your hand, draw a card. "
+    
+    -
+        # He doesn’t have many choices, but has potential for very explosive turns. It doesn’t 
+        # allow for magic abilities well, but a series of cheap, cheap, cheap, super expensive 
+        # should play very well out of this.
+        name: "The Barbarian"
+        intelligence: 3
+        energy: 7
+        luck: 3
+        disadvantage: "Magic abilities cost an additional 2"
+        advantage: "Physical Damage you deal is increased by 1"
+    -
+        # He can have a lot of actions and is rewarded for spending more than 1 mana a turn
+        # as he generates extra. He won’t have enough for the huge skills, nor enough room for 
+        # conditions to buff it. A constant stream of medium actions will be very beneficial here.
+        name: "The Wizard"
+        intelligence: 7
+        energy: 4
+        luck: 1
+        disadvantage: "Physical Damage dealt to you is increased by 1"
+        advantage: "Recharge 1"

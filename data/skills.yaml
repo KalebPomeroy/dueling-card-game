@@ -1,0 +1,275 @@
+skills:
+    -
+        name: Murderous Command
+        energy: 3
+        cooldown: 7
+        keywords: Magic • Black
+        loaded_keyword: Arcane
+        text: "Deal 5 damage to the player with the fewest skills."
+
+    -
+        name: Smite
+        energy: 2
+        cooldown: 4
+        keywords: Magic • Holy
+        text: "Deal 2 damage. Draw a card if that player has a Black skill."
+    -
+        name: Revoke Power
+        energy: 3
+        cooldown: 3 
+        keywords: Magic • Holy
+        text: "Destroy a magic skill or item."
+    -
+        name: Inspire Fear
+        energy: 1
+        cooldown: 1
+        keywords: Magic • Black
+        text: "Opponent chooses - Take 1 damage or discard a card."
+    -
+        name: Psychic Shock
+        energy: 2
+        cooldown: 4
+        keywords: Magic
+        text: "All players with a magic skill draw 3 cards and discard 2 cards."
+    -
+        name: Fireball
+        energy: 3
+        cooldown: 5
+        keywords: Magic • Fire
+        text: "Opponent chooses - Destroy an item or deal 5 damage."
+    -
+        name: Magic Missile
+        energy: 3
+        cooldown: 2 
+        keywords: Magic
+        loaded_keyword: Level
+        text: Deal 3 Damage
+        levels:
+            Two: Deal 5 damage
+            Three: Deal 7 damage
+
+    -
+        name: Polymorph
+        energy: 1
+        cooldown: 2
+        keywords: Magic
+        text: "While this is on cooldown, all damage you are dealt loses its keywords" 
+    -
+        name: Mana Drain
+        energy: x
+        cooldown: 3 
+        keywords: Magic
+        text: "Player loses X energy"
+    -
+        name: Smash
+        energy: 3
+        cooldown: 2
+        keywords: Physical
+        text: Deal 2 Damage
+        loaded_keyword: Level
+        levels:
+            Two: Deal 4 damage
+            Three: Deal 8 damage
+    -
+        name: Burn
+        energy: 3
+        cooldown: 2
+        keywords: Physical • Fire
+        text: Deal 3 damage
+    -
+        name: Double Strike
+        energy: 3
+        cooldown: 3
+        keywords: Physical
+        text: Deal 2 damage. Deal 2 damage.
+    -
+        name: Duel
+        energy: 2
+        cooldown: 3
+        keywords: Physical
+        text: Deal damage equal to the difference in strength between you and the target.
+    -
+        name: Fight without Steel
+        energy: 1
+        cooldown: 4
+        keywords: Physical • Empty Handed
+        text: "If you do not have a weapon, deal 4 damage."
+    -
+        name: Battle Cry
+        energy: 0
+        cooldown: 5
+        keywords: 
+        text: Draw 2 cards and gain Recharge 1
+    -
+        name: Clash of Champions
+        energy: 6
+        cooldown: 8
+        keywords: Physical
+        text: Deal 9 damage
+    -
+        name: Spinning Heel Kick
+        energy: 1
+        cooldown: 2
+        keywords: Physical • Empty Handed
+        text: Draw a card. Execute another skill in play.
+    -
+        name: Charge
+        energy: 5
+        cooldown: 2
+        keywords: Physical
+        text: Each player is dealt 4 damage.
+    -
+        name: Powerful Blow
+        energy: 2
+        cooldown: 4
+        keywords: Physical
+        text: "Destroy an item. If that player has no items, deal him 4 damage instead"
+    -
+        name: Furious Assault
+        energy: X
+        cooldown: 4 
+        keywords: Physical
+        text: X is you opponents base energy. Destroy a skill.
+    -
+        name: Headbutt
+        energy: 1
+        cooldown: 2
+        keywords: Physical • Empty Handed
+        text: Deal 1 damage. That player discards a card
+    -
+        name: Cast aside the Weak
+        energy: 2
+        cooldown: 3
+        keywords: Physical
+        text: Return a card to its owners hand.
+    - 
+        name: I know that trick
+        energy: 1
+        cooldown: X
+        keywords: Stealth
+        text: "Take an additional action to execute another player's skill. Put X cooldown tokens here, where X is the cooldown of the copied action"
+    -
+        name: Ambush
+        energy: 1
+        cooldown: 0
+        keywords: Stealth • Physical
+        loaded_keyword: Trickshot
+        text: Deal a damage for each condition you have
+    -
+        name: Poisoned Weapons
+        energy: 0
+        cooldown: 3
+        keywords: Physical • Edged
+        text: Discard a card to deal 3 damage
+    -
+        name: Shot from Behind
+        energy: 2
+        cooldown: 1
+        keywords: Stealth • Ranged
+        loaded_keyword: Trickshot
+        text: Look at the top 4 cards of a players deck. Discard 2 of them. 
+
+    -
+        name: Distract
+        energy: 2
+        cooldown: 6
+        keywords: 
+        loaded_keyword: 
+            - Interrupt
+            - Arcane 
+        text: Disrupt a skill being activated from play. 
+
+    -
+        name: Push
+        energy: 3
+        cooldown: 1
+        keywords: Magic
+        text: "While this spell is on cooldown, non-range damage dealt to you is reduced by two."
+
+    -
+        name: Crippling Shot
+        energy: 4
+        cooldown: 2 
+        keywords: Stealth • Ranged
+        text: Deal 3 damage. That player does not Recharge energy during his next turn. 
+    -
+        name: Perfect Strike
+        energy: 3
+        cooldown: 4
+        keywords: Physical • Edged
+        text: Deal 2 damage and destoy a condition.
+    -
+        name: Lay in wait
+        energy: 2
+        cooldown: 4
+        keywords: Stealth
+        loaded_keyword: Interrupt
+        text: "After a player deals you damage, destoy an item"
+    -
+        name: Well Practiced Tricks
+        energy: 3
+        cooldown: 1 
+        keywords: 
+        loaded_keyword: Trickshot
+        text: Take a card into your hand from your discard pile
+    -
+        name: Reconnaissance
+        energy: 2
+        cooldown: 1
+        keywords: 
+        text: Look at the top 3 cards of any players deck. Arrange them in any order
+    -
+        name: Arrow from the woods
+        energy: 2
+        cooldown: 4
+        keywords: Ranged
+        text: Deal 2 damage
+    -
+        name: Impossible Shot
+        energy: 4
+        cooldown: 6
+        keywords: Ranged
+        text: Deal 2 damage and destoy a card
+    -
+        name: Burn it down
+        energy: 1
+        cooldown: 3
+        keywords: Ranged • Fire
+        text: "While this is on cooldown, your range damage is increased by one"
+    -
+        name: Not Beyond my Reach
+        energy: 1
+        cooldown: 4
+        keywords: Ranged
+        text: Deal 1 Damage and discard a card at random from that players hand
+    -
+        name: Expected that
+        energy: 2
+        cooldown: 4
+        keywords: 
+        loaded_keyword: Interrupt
+        text: Disrupt a trickshot skill. 
+
+    -
+        name: Strong Defense
+        energy: 0
+        cooldown: 6
+        keywords: 
+        loaded_keyword: Interrupt
+        text: Disrupt Physical damage. 
+
+    -
+        name: Protect the Innocent
+        energy: 0
+        cooldown: 3
+        keywords: Physical • Holy
+        text: "While this skill is on cooldown, non-magic damage is reduced by one"
+    -
+        name: Bind and Bandage
+        energy: 3
+        cooldown: 9
+        keywords: 
+        loaded_keyword: 
+            - Interrupt 
+            - Arcane
+        text: Negate any amount of damage.

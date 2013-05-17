@@ -1,0 +1,68 @@
+items:
+    -
+        name: Lucky Charm
+        type: Charm
+        text: You have +1 Luck
+    -
+        name: Magical Resitance Charm
+        type: Charm
+        text: Magic damage is dealt to you is reduced by 1
+    -
+        name: Friendship Charm
+        type: Charm
+        text: "When your turn begins, each players draws a card"
+    -
+        name: Strength Bracelet
+        type: Charm
+        text: Physical damage is increased by one
+    -
+        name: Short Sword 
+        type: Weapon
+        keywords: Edged
+        text: Your physical damage is increased by 1 against opponents not wearing armor
+    -
+        name: Steel Mace
+        type: Weapon
+        text: Armor does not reduce physical damage you dealt
+    - 
+        name: Yew Bow
+        type: Weapon
+        keywords: Ranged
+        text: Range attack damage is increased by 1
+    - 
+        name: Throwing Knives
+        type: Weapon
+        keywords: Ranged • Edged
+        text: Edged damage you deal loses all types and becomes ranged.
+
+    -
+        name: Quarterstaff
+        type: Weapon
+        text: "After you deal damage, Recharge 1 "
+    -
+        name: Dagger
+        type: Weapon
+        keywords: Edged
+        text: "While you have a stealth skill, you have +1 intellegence"
+    -
+        name: Wizard Robes
+        type: Armor
+        text: You may spend 1 energy when you execute a magic skill to reduce the cooldown by 1
+    -
+        name: Cloak
+        type: Armor
+        text: Non-Stealth damage is reduced by one. Gain 1 energy when you take a damage.
+    -
+        name: Scout Armor
+        type: Armor
+        text: Damage is reduced by one. Your ranged damage is increased by one.
+    -
+        name: Steel Plate
+        type: Armor
+        text: Physical damage is reduced by two. 
+    -
+        name: Magic Armor
+        type: Armor
+        keywords: Magic
+        text: "Non-Magic damages is reduced by 1. After you take a non-magic damage, deal 1 damage"
+
